@@ -14,8 +14,8 @@ Full tutorial on https://www.teachmemicro.com/esp32-pressure-sensor
 #include "jscript.h"
 #include "HX710B.h"
 
-const int DOUT_Pin = 25;   //sensor data pin
-const int SCK_Pin  = 17;   //sensor clock pin
+const int DOUT_Pin = 12;   //sensor data pin
+const int SCK_Pin  = 14;   //sensor clock pin
 
 //provide your own WiFi SSID and password
 const char* ssid = "Stacey's_Wifi_2.4";
